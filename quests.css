@@ -13,7 +13,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
-  position: fixed;
+  position: absolute;
   left: 0;
   animation: yetiSnowboard 8s linear infinite;
 }
