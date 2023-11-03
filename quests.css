@@ -20,20 +20,16 @@
 
 @keyframes yetiSnowboard {
   0% {
-    left: -150px;
-    transform: rotate(0deg) translateY(0);
+    transform: translateX(-150px) translateY(0) rotate(0deg);
   }
   25% {
-    left: 20vw;
-    transform: rotate(0deg) translateY(10px);
+    transform: translateX(20vw) translateY(10px) rotate(0deg);
   }
   70% {
-    left: 70vw;
-    transform: rotate(360deg) translateY(30px);
+    transform: translateX(70vw) translateY(30px) rotate(360deg);
   }
   100% {
-    left: calc(100vw + 150px);
-    transform: rotate(360deg) translateY(40px);
+    transform: translateX(calc(100vw + 150px)) translateY(40px) rotate(360deg);
   }
 }
 
